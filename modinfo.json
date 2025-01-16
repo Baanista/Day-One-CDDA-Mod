@@ -1,0 +1,12 @@
+[
+    {
+      "type": "MOD_INFO",
+      "id": "Day One",
+      "name": "Day One",
+      "authors": [ "NickMaster07" ],
+      "description": "Replaces 95% of zombies with unarmed human NPCs with randomized attributes.",
+      "category": "rebalance",
+      "dependencies": [ "dda" ]
+    }
+  ]
+   

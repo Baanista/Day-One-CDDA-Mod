@@ -1,0 +1,80 @@
+[
+  {
+    "type": "npc",
+    "id": "npc_civilian_panic",
+    "name_suffix": "Panicked Civilian",
+    "class": "NC_NONE",
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_CIVILIAN_PANIC",
+    "faction": "no_faction",
+    "bonus_str": { "rng": [ -2, 2 ] },
+    "bonus_dex": { "rng": [ -2, 2 ] },
+    "bonus_int": { "rng": [ -2, 2 ] },
+    "bonus_per": { "rng": [ -2, 2 ] },
+    "skills": [
+      { "skill": "unarmed", "level": { "rng": [ 1, 3 ] } },
+      { "skill": "melee", "level": { "rng": [ 1, 3 ] } }
+    ],
+    "items": {
+      "both": [
+        { "item": "tshirt", "charges": 1 },
+        { "item": "jeans", "charges": 1 },
+        { "item": "sneakers", "charges": 1 }
+      ]
+    }
+  },
+  {
+    "type": "npc",
+    "id": "npc_civilian_fighter",
+    "name_suffix": "Aggressive Civilian",
+    "class": "NC_NONE",
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_CIVILIAN_FIGHTER",
+    "faction": "no_faction",
+    "bonus_str": { "rng": [ 0, 2 ] },
+    "bonus_dex": { "rng": [ 0, 2 ] },
+    "bonus_int": { "rng": [ -1, 1 ] },
+    "bonus_per": { "rng": [ -1, 1 ] },
+    "skills": [
+      { "skill": "melee", "level": { "rng": [ 2, 4 ] } },
+      { "skill": "cutting", "level": { "rng": [ 1, 3 ] } }
+    ],
+    "items": {
+      "both": [
+        { "item": "tshirt", "charges": 1 },
+        { "item": "pants", "charges": 1 },
+        { "item": "boots", "charges": 1 },
+        { "item": "knife_combat", "charges": 1 }
+      ]
+    }
+  },
+  {
+    "type": "npc",
+    "id": "npc_civilian_officer",
+    "name_suffix": "Police Officer",
+    "class": "NC_NONE",
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_CIVILIAN_OFFICER",
+    "faction": "no_faction",
+    "bonus_str": { "rng": [ 1, 3 ] },
+    "bonus_dex": { "rng": [ 1, 3 ] },
+    "bonus_int": { "rng": [ 0, 2 ] },
+    "bonus_per": { "rng": [ 0, 2 ] },
+    "skills": [
+      { "skill": "melee", "level": { "rng": [ 2, 4 ] } },
+      { "skill": "pistol", "level": { "rng": [ 2, 4 ] } }
+    ],
+    "items": {
+      "both": [
+        { "item": "badge_police", "charges": 1 },
+        { "item": "uniform_police", "charges": 1 },
+        { "item": "boots", "charges": 1 },
+        { "item": "gun_pistol", "charges": 1 },
+        { "item": "ammo_pistol", "charges": 10 }
+      ]
+    }
+  }
+]
